@@ -3433,6 +3433,8 @@ display:block;
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin-left: 50px;
+  position: relative;
+  left: 100px;
 }
 
 .container {
@@ -3443,9 +3445,26 @@ display:block;
   content: "";
   clear: both;
   display: table;
+  position: relative;
+  left: 100px;
 }			
 
 .title {
   color: grey;
   font-size: 11px;
 }
+
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-left: 50px;
+  position: relative;
+  left: 475px;
+}
+
+.container1::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+  position: relative;
+  left: 475px;
+}		
