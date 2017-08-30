@@ -3434,7 +3434,7 @@ display:block;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin-left: 50px;
   position: relative;
-  left: 100px;
+  left: 140px;
 }
 
 .container {
@@ -3446,7 +3446,7 @@ display:block;
   clear: both;
   display: table;
   position: relative;
-  left: 100px;
+  left: 140px;
 }			
 
 .title {
